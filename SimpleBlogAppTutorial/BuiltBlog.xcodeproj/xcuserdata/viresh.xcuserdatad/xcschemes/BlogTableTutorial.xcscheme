@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "423DA34018BF83C400A3C787"
                BuildableName = "BlogTableTutorial.app"
-               BlueprintName = "BlogTableTutorial"
-               ReferencedContainer = "container:BlogTableTutorial.xcodeproj">
+               BlueprintName = "BuiltBlog"
+               ReferencedContainer = "container:BuiltBlog.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "423DA36118BF83C400A3C787"
                BuildableName = "BlogTableTutorialTests.xctest"
-               BlueprintName = "BlogTableTutorialTests"
-               ReferencedContainer = "container:BlogTableTutorial.xcodeproj">
+               BlueprintName = "BuiltBlogTests"
+               ReferencedContainer = "container:BuiltBlog.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,8 +44,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "423DA34018BF83C400A3C787"
             BuildableName = "BlogTableTutorial.app"
-            BlueprintName = "BlogTableTutorial"
-            ReferencedContainer = "container:BlogTableTutorial.xcodeproj">
+            BlueprintName = "BuiltBlog"
+            ReferencedContainer = "container:BuiltBlog.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "423DA34018BF83C400A3C787"
             BuildableName = "BlogTableTutorial.app"
-            BlueprintName = "BlogTableTutorial"
-            ReferencedContainer = "container:BlogTableTutorial.xcodeproj">
+            BlueprintName = "BuiltBlog"
+            ReferencedContainer = "container:BuiltBlog.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -81,8 +81,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "423DA34018BF83C400A3C787"
             BuildableName = "BlogTableTutorial.app"
-            BlueprintName = "BlogTableTutorial"
-            ReferencedContainer = "container:BlogTableTutorial.xcodeproj">
+            BlueprintName = "BuiltBlog"
+            ReferencedContainer = "container:BuiltBlog.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
