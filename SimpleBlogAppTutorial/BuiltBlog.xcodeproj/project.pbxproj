@@ -20,6 +20,8 @@
 		423DA36E18BF83C400A3C787 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 423DA36C18BF83C400A3C787 /* InfoPlist.strings */; };
 		423DA37018BF83C400A3C787 /* BlogTableTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 423DA36F18BF83C400A3C787 /* BlogTableTutorialTests.m */; };
 		423DA37B18BF866E00A3C787 /* BlogsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 423DA37A18BF866E00A3C787 /* BlogsTableViewController.m */; };
+		4253CF7D1917A82700E3FB69 /* BuiltIO.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4253CF7B1917A82700E3FB69 /* BuiltIO.bundle */; };
+		4253CF7E1917A82700E3FB69 /* BuiltIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4253CF7C1917A82700E3FB69 /* BuiltIO.framework */; };
 		42628AA918C059DA00BC5D81 /* NewPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42628AA818C059DA00BC5D81 /* NewPostViewController.m */; };
 		42628AAF18C05E8F00BC5D81 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42628AAE18C05E8F00BC5D81 /* QuartzCore.framework */; };
 		42628AB118C05E9F00BC5D81 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42628AB018C05E9F00BC5D81 /* Security.framework */; };
@@ -32,8 +34,6 @@
 		42628ABF18C05EDA00BC5D81 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42628ABE18C05EDA00BC5D81 /* Accounts.framework */; };
 		42628AC318C0A91400BC5D81 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 42628AC218C0A91400BC5D81 /* MBProgressHUD.m */; };
 		4271E7E518CF2DAD00764D05 /* BlogDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4271E7E418CF2DAD00764D05 /* BlogDetailViewController.m */; };
-		7D0546F118F59D8D00498950 /* BuiltIO.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7D0546EF18F59D8D00498950 /* BuiltIO.bundle */; };
-		7D0546F218F59D8D00498950 /* BuiltIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D0546F018F59D8D00498950 /* BuiltIO.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +65,8 @@
 		423DA36F18BF83C400A3C787 /* BlogTableTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlogTableTutorialTests.m; sourceTree = "<group>"; };
 		423DA37918BF866E00A3C787 /* BlogsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlogsTableViewController.h; sourceTree = "<group>"; };
 		423DA37A18BF866E00A3C787 /* BlogsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlogsTableViewController.m; sourceTree = "<group>"; };
+		4253CF7B1917A82700E3FB69 /* BuiltIO.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = BuiltIO.bundle; path = "../built.io-ios-framework/BuiltIO.bundle"; sourceTree = "<group>"; };
+		4253CF7C1917A82700E3FB69 /* BuiltIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BuiltIO.framework; path = "../built.io-ios-framework/BuiltIO.framework"; sourceTree = "<group>"; };
 		42628AA718C059DA00BC5D81 /* NewPostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewPostViewController.h; sourceTree = "<group>"; };
 		42628AA818C059DA00BC5D81 /* NewPostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewPostViewController.m; sourceTree = "<group>"; };
 		42628AAE18C05E8F00BC5D81 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -80,8 +82,6 @@
 		42628AC218C0A91400BC5D81 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		4271E7E318CF2DAD00764D05 /* BlogDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlogDetailViewController.h; sourceTree = "<group>"; };
 		4271E7E418CF2DAD00764D05 /* BlogDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlogDetailViewController.m; sourceTree = "<group>"; };
-		7D0546EF18F59D8D00498950 /* BuiltIO.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = BuiltIO.bundle; path = "../built.io-ios-framework/BuiltIO.bundle"; sourceTree = "<group>"; };
-		7D0546F018F59D8D00498950 /* BuiltIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BuiltIO.framework; path = "../built.io-ios-framework/BuiltIO.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +97,7 @@
 				42628AB518C05EB100BC5D81 /* CFNetwork.framework in Frameworks */,
 				42628AB318C05EA800BC5D81 /* SystemConfiguration.framework in Frameworks */,
 				42628AB118C05E9F00BC5D81 /* Security.framework in Frameworks */,
-				7D0546F218F59D8D00498950 /* BuiltIO.framework in Frameworks */,
+				4253CF7E1917A82700E3FB69 /* BuiltIO.framework in Frameworks */,
 				423DA34718BF83C400A3C787 /* CoreGraphics.framework in Frameworks */,
 				42628AAF18C05E8F00BC5D81 /* QuartzCore.framework in Frameworks */,
 				423DA34918BF83C400A3C787 /* UIKit.framework in Frameworks */,
@@ -140,8 +140,8 @@
 		423DA34318BF83C400A3C787 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7D0546EF18F59D8D00498950 /* BuiltIO.bundle */,
-				7D0546F018F59D8D00498950 /* BuiltIO.framework */,
+				4253CF7B1917A82700E3FB69 /* BuiltIO.bundle */,
+				4253CF7C1917A82700E3FB69 /* BuiltIO.framework */,
 				42628ABE18C05EDA00BC5D81 /* Accounts.framework */,
 				42628ABC18C05ED200BC5D81 /* Social.framework */,
 				42628ABA18C05EC900BC5D81 /* Twitter.framework */,
@@ -291,7 +291,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D0546F118F59D8D00498950 /* BuiltIO.bundle in Resources */,
+				4253CF7D1917A82700E3FB69 /* BuiltIO.bundle in Resources */,
 				423DA35D18BF83C400A3C787 /* Images.xcassets in Resources */,
 				423DA34F18BF83C400A3C787 /* InfoPlist.strings in Resources */,
 			);
@@ -440,6 +440,12 @@
 					"$(SRCROOT)",
 					"$(inherited)",
 					"/Users/viresh/Projects/built.io-ios-tutorial-simple-blog-app/built.io-ios-framework",
+					"$(PROJECT_DIR)",
+					/Users/sameer/Documents/iOS,
+					Projects/builtIO,
+					tutorial,
+					github/github,
+					"built/built.io-ios-tutorial-simple-blog-app/built.io-ios-framework",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BlogTableTutorial/BuiltBlog-Prefix.pch";
@@ -459,6 +465,12 @@
 					"$(SRCROOT)",
 					"$(inherited)",
 					"/Users/viresh/Projects/built.io-ios-tutorial-simple-blog-app/built.io-ios-framework",
+					"$(PROJECT_DIR)",
+					/Users/sameer/Documents/iOS,
+					Projects/builtIO,
+					tutorial,
+					github/github,
+					"built/built.io-ios-tutorial-simple-blog-app/built.io-ios-framework",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BlogTableTutorial/BuiltBlog-Prefix.pch";
