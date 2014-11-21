@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23968E2B1A1F6ABE00C0B830 /* BuiltBlogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23968E2A1A1F6ABE00C0B830 /* BuiltBlogTests.m */; };
 		423DA34518BF83C400A3C787 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423DA34418BF83C400A3C787 /* Foundation.framework */; };
 		423DA34718BF83C400A3C787 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423DA34618BF83C400A3C787 /* CoreGraphics.framework */; };
 		423DA34918BF83C400A3C787 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423DA34818BF83C400A3C787 /* UIKit.framework */; };
@@ -14,11 +15,6 @@
 		423DA35118BF83C400A3C787 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 423DA35018BF83C400A3C787 /* main.m */; };
 		423DA35518BF83C400A3C787 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 423DA35418BF83C400A3C787 /* AppDelegate.m */; };
 		423DA35D18BF83C400A3C787 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 423DA35C18BF83C400A3C787 /* Images.xcassets */; };
-		423DA36418BF83C400A3C787 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423DA36318BF83C400A3C787 /* XCTest.framework */; };
-		423DA36518BF83C400A3C787 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423DA34418BF83C400A3C787 /* Foundation.framework */; };
-		423DA36618BF83C400A3C787 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423DA34818BF83C400A3C787 /* UIKit.framework */; };
-		423DA36E18BF83C400A3C787 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 423DA36C18BF83C400A3C787 /* InfoPlist.strings */; };
-		423DA37018BF83C400A3C787 /* BlogTableTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 423DA36F18BF83C400A3C787 /* BlogTableTutorialTests.m */; };
 		423DA37B18BF866E00A3C787 /* BlogsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 423DA37A18BF866E00A3C787 /* BlogsTableViewController.m */; };
 		42628AA918C059DA00BC5D81 /* NewPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42628AA818C059DA00BC5D81 /* NewPostViewController.m */; };
 		42628AAF18C05E8F00BC5D81 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42628AAE18C05E8F00BC5D81 /* QuartzCore.framework */; };
@@ -37,16 +33,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		423DA36718BF83C400A3C787 /* PBXContainerItemProxy */ = {
+		23968E2C1A1F6ABE00C0B830 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 423DA33918BF83C400A3C787 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 423DA34018BF83C400A3C787;
-			remoteInfo = BlogTableTutorial;
+			remoteInfo = BuiltBlog;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		23968E261A1F6ABE00C0B830 /* BuiltBlogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuiltBlogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23968E291A1F6ABE00C0B830 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23968E2A1A1F6ABE00C0B830 /* BuiltBlogTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuiltBlogTests.m; sourceTree = "<group>"; };
 		423DA34118BF83C400A3C787 /* BuiltBlog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuiltBlog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		423DA34418BF83C400A3C787 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		423DA34618BF83C400A3C787 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -58,7 +57,6 @@
 		423DA35318BF83C400A3C787 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		423DA35418BF83C400A3C787 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		423DA35C18BF83C400A3C787 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		423DA36218BF83C400A3C787 /* BuiltBlogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuiltBlogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		423DA36318BF83C400A3C787 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		423DA36B18BF83C400A3C787 /* BuiltBlogTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BuiltBlogTests-Info.plist"; sourceTree = "<group>"; };
 		423DA36D18BF83C400A3C787 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -85,6 +83,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		23968E231A1F6ABE00C0B830 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		423DA33E18BF83C400A3C787 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -105,24 +110,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		423DA35F18BF83C400A3C787 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				423DA36418BF83C400A3C787 /* XCTest.framework in Frameworks */,
-				423DA36618BF83C400A3C787 /* UIKit.framework in Frameworks */,
-				423DA36518BF83C400A3C787 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23968E271A1F6ABE00C0B830 /* BuiltBlogTests */ = {
+			isa = PBXGroup;
+			children = (
+				23968E2A1A1F6ABE00C0B830 /* BuiltBlogTests.m */,
+				23968E281A1F6ABE00C0B830 /* Supporting Files */,
+			);
+			path = BuiltBlogTests;
+			sourceTree = "<group>";
+		};
+		23968E281A1F6ABE00C0B830 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				23968E291A1F6ABE00C0B830 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		423DA33818BF83C400A3C787 = {
 			isa = PBXGroup;
 			children = (
 				423DA34A18BF83C400A3C787 /* BlogTableTutorial */,
 				423DA36918BF83C400A3C787 /* BlogTableTutorialTests */,
+				23968E271A1F6ABE00C0B830 /* BuiltBlogTests */,
 				423DA34318BF83C400A3C787 /* Frameworks */,
 				423DA34218BF83C400A3C787 /* Products */,
 			);
@@ -132,7 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				423DA34118BF83C400A3C787 /* BuiltBlog.app */,
-				423DA36218BF83C400A3C787 /* BuiltBlogTests.xctest */,
+				23968E261A1F6ABE00C0B830 /* BuiltBlogTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -218,6 +231,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		23968E251A1F6ABE00C0B830 /* BuiltBlogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23968E2E1A1F6ABE00C0B830 /* Build configuration list for PBXNativeTarget "BuiltBlogTests" */;
+			buildPhases = (
+				23968E221A1F6ABE00C0B830 /* Sources */,
+				23968E231A1F6ABE00C0B830 /* Frameworks */,
+				23968E241A1F6ABE00C0B830 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23968E2D1A1F6ABE00C0B830 /* PBXTargetDependency */,
+			);
+			name = BuiltBlogTests;
+			productName = BuiltBlogTests;
+			productReference = 23968E261A1F6ABE00C0B830 /* BuiltBlogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		423DA34018BF83C400A3C787 /* BuiltBlog */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 423DA37318BF83C400A3C787 /* Build configuration list for PBXNativeTarget "BuiltBlog" */;
@@ -235,24 +266,6 @@
 			productReference = 423DA34118BF83C400A3C787 /* BuiltBlog.app */;
 			productType = "com.apple.product-type.application";
 		};
-		423DA36118BF83C400A3C787 /* BuiltBlogTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 423DA37618BF83C400A3C787 /* Build configuration list for PBXNativeTarget "BuiltBlogTests" */;
-			buildPhases = (
-				423DA35E18BF83C400A3C787 /* Sources */,
-				423DA35F18BF83C400A3C787 /* Frameworks */,
-				423DA36018BF83C400A3C787 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				423DA36818BF83C400A3C787 /* PBXTargetDependency */,
-			);
-			name = BuiltBlogTests;
-			productName = BlogTableTutorialTests;
-			productReference = 423DA36218BF83C400A3C787 /* BuiltBlogTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -262,7 +275,8 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = Sameer;
 				TargetAttributes = {
-					423DA36118BF83C400A3C787 = {
+					23968E251A1F6ABE00C0B830 = {
+						CreatedOnToolsVersion = 6.1;
 						TestTargetID = 423DA34018BF83C400A3C787;
 					};
 				};
@@ -281,12 +295,19 @@
 			projectRoot = "";
 			targets = (
 				423DA34018BF83C400A3C787 /* BuiltBlog */,
-				423DA36118BF83C400A3C787 /* BuiltBlogTests */,
+				23968E251A1F6ABE00C0B830 /* BuiltBlogTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		23968E241A1F6ABE00C0B830 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		423DA33F18BF83C400A3C787 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -297,17 +318,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		423DA36018BF83C400A3C787 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				423DA36E18BF83C400A3C787 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		23968E221A1F6ABE00C0B830 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23968E2B1A1F6ABE00C0B830 /* BuiltBlogTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		423DA33D18BF83C400A3C787 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -321,21 +342,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		423DA35E18BF83C400A3C787 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				423DA37018BF83C400A3C787 /* BlogTableTutorialTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		423DA36818BF83C400A3C787 /* PBXTargetDependency */ = {
+		23968E2D1A1F6ABE00C0B830 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 423DA34018BF83C400A3C787 /* BuiltBlog */;
-			targetProxy = 423DA36718BF83C400A3C787 /* PBXContainerItemProxy */;
+			targetProxy = 23968E2C1A1F6ABE00C0B830 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -359,6 +372,50 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		23968E2F1A1F6ABE00C0B830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = BuiltBlogTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuiltBlog.app/BuiltBlog";
+			};
+			name = Debug;
+		};
+		23968E301A1F6ABE00C0B830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = BuiltBlogTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuiltBlog.app/BuiltBlog";
+			};
+			name = Release;
+		};
 		423DA37118BF83C400A3C787 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -461,51 +518,17 @@
 			};
 			name = Release;
 		};
-		423DA37718BF83C400A3C787 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BlogTableTutorial.app/BlogTableTutorial";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BlogTableTutorial/BlogTableTutorial-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "BlogTableTutorialTests/BuiltBlogTests-Info.plist";
-				PRODUCT_NAME = BuiltBlogTests;
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		423DA37818BF83C400A3C787 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BlogTableTutorial.app/BlogTableTutorial";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BlogTableTutorial/BlogTableTutorial-Prefix.pch";
-				INFOPLIST_FILE = "BlogTableTutorialTests/BuiltBlogTests-Info.plist";
-				PRODUCT_NAME = BuiltBlogTests;
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		23968E2E1A1F6ABE00C0B830 /* Build configuration list for PBXNativeTarget "BuiltBlogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23968E2F1A1F6ABE00C0B830 /* Debug */,
+				23968E301A1F6ABE00C0B830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		423DA33C18BF83C400A3C787 /* Build configuration list for PBXProject "BuiltBlog" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -520,15 +543,6 @@
 			buildConfigurations = (
 				423DA37418BF83C400A3C787 /* Debug */,
 				423DA37518BF83C400A3C787 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		423DA37618BF83C400A3C787 /* Build configuration list for PBXNativeTarget "BuiltBlogTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				423DA37718BF83C400A3C787 /* Debug */,
-				423DA37818BF83C400A3C787 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

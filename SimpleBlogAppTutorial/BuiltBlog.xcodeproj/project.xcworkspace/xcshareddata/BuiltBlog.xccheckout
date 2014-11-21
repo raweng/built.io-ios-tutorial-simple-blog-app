@@ -10,33 +10,33 @@
 	<string>BuiltBlog</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>2D8BF652-5A6D-4DBE-B66E-D152915956E6</key>
+		<key>ACD166E1E08D0FB272C4B42C03503CFA623DE62B</key>
 		<string>https://github.com/raweng/built.io-ios-framework</string>
-		<key>F5E099FE-B944-49FB-84DA-3B5E5C97EA21</key>
+		<key>E8D1C0E875396565DFAC733033A7A35E00FFFFC8</key>
 		<string>https://github.com/raweng/built.io-ios-tutorial-simple-blog-app.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>SimpleBlogAppTutorial/BuiltBlog.xcodeproj/project.xcworkspace</string>
+	<string>SimpleBlogAppTutorial/BuiltBlog.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>2D8BF652-5A6D-4DBE-B66E-D152915956E6</key>
-		<string>../../../built.io-ios-framework</string>
-		<key>F5E099FE-B944-49FB-84DA-3B5E5C97EA21</key>
+		<key>ACD166E1E08D0FB272C4B42C03503CFA623DE62B</key>
+		<string>../../..built.io-ios-framework/</string>
+		<key>E8D1C0E875396565DFAC733033A7A35E00FFFFC8</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/raweng/built.io-ios-tutorial-simple-blog-app.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>F5E099FE-B944-49FB-84DA-3B5E5C97EA21</string>
+	<string>E8D1C0E875396565DFAC733033A7A35E00FFFFC8</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>2D8BF652-5A6D-4DBE-B66E-D152915956E6</string>
+			<string>ACD166E1E08D0FB272C4B42C03503CFA623DE62B</string>
 			<key>IDESourceControlWCCName</key>
 			<string>built.io-ios-framework</string>
 		</dict>
@@ -44,7 +44,7 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>F5E099FE-B944-49FB-84DA-3B5E5C97EA21</string>
+			<string>E8D1C0E875396565DFAC733033A7A35E00FFFFC8</string>
 			<key>IDESourceControlWCCName</key>
 			<string>built.io-ios-tutorial-simple-blog-app</string>
 		</dict>
