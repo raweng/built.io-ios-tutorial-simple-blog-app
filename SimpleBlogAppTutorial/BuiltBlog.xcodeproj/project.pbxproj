@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23075E991B01D17A00DD2DAC /* BlogsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 423DA37A18BF866E00A3C787 /* BlogsTableViewController.m */; };
 		23968E2B1A1F6ABE00C0B830 /* BuiltBlogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23968E2A1A1F6ABE00C0B830 /* BuiltBlogTests.m */; };
 		423DA34518BF83C400A3C787 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423DA34418BF83C400A3C787 /* Foundation.framework */; };
 		423DA34718BF83C400A3C787 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423DA34618BF83C400A3C787 /* CoreGraphics.framework */; };
@@ -15,7 +16,6 @@
 		423DA35118BF83C400A3C787 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 423DA35018BF83C400A3C787 /* main.m */; };
 		423DA35518BF83C400A3C787 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 423DA35418BF83C400A3C787 /* AppDelegate.m */; };
 		423DA35D18BF83C400A3C787 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 423DA35C18BF83C400A3C787 /* Images.xcassets */; };
-		423DA37B18BF866E00A3C787 /* BlogsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 423DA37A18BF866E00A3C787 /* BlogsTableViewController.m */; };
 		42628AA918C059DA00BC5D81 /* NewPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42628AA818C059DA00BC5D81 /* NewPostViewController.m */; };
 		42628AAF18C05E8F00BC5D81 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42628AAE18C05E8F00BC5D81 /* QuartzCore.framework */; };
 		42628AB118C05E9F00BC5D81 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42628AB018C05E9F00BC5D81 /* Security.framework */; };
@@ -30,6 +30,12 @@
 		4271E7E518CF2DAD00764D05 /* BlogDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4271E7E418CF2DAD00764D05 /* BlogDetailViewController.m */; };
 		428A76731917DB31003694AB /* BuiltIO.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 428A76711917DB31003694AB /* BuiltIO.bundle */; };
 		428A76741917DB31003694AB /* BuiltIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 428A76721917DB31003694AB /* BuiltIO.framework */; };
+		FA231A6E1A9F051000434E36 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FA231A6D1A9F051000434E36 /* libicucore.dylib */; };
+		FA231A701A9F051800434E36 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FA231A6F1A9F051800434E36 /* libsqlite3.dylib */; };
+		FA231A721A9F052200434E36 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FA231A711A9F052200434E36 /* libc++.dylib */; };
+		FA231A741A9F052B00434E36 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA231A731A9F052B00434E36 /* MobileCoreServices.framework */; };
+		FA231A761A9F053100434E36 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA231A751A9F053100434E36 /* CoreData.framework */; };
+		FA231A781A9F053700434E36 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA231A771A9F053700434E36 /* CoreFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,9 +64,6 @@
 		423DA35418BF83C400A3C787 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		423DA35C18BF83C400A3C787 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		423DA36318BF83C400A3C787 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		423DA36B18BF83C400A3C787 /* BuiltBlogTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BuiltBlogTests-Info.plist"; sourceTree = "<group>"; };
-		423DA36D18BF83C400A3C787 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		423DA36F18BF83C400A3C787 /* BlogTableTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlogTableTutorialTests.m; sourceTree = "<group>"; };
 		423DA37918BF866E00A3C787 /* BlogsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlogsTableViewController.h; sourceTree = "<group>"; };
 		423DA37A18BF866E00A3C787 /* BlogsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlogsTableViewController.m; sourceTree = "<group>"; };
 		42628AA718C059DA00BC5D81 /* NewPostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewPostViewController.h; sourceTree = "<group>"; };
@@ -80,6 +83,12 @@
 		4271E7E418CF2DAD00764D05 /* BlogDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlogDetailViewController.m; sourceTree = "<group>"; };
 		428A76711917DB31003694AB /* BuiltIO.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = BuiltIO.bundle; path = "../built.io-ios-framework/BuiltIO.bundle"; sourceTree = "<group>"; };
 		428A76721917DB31003694AB /* BuiltIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BuiltIO.framework; path = "../built.io-ios-framework/BuiltIO.framework"; sourceTree = "<group>"; };
+		FA231A6D1A9F051000434E36 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		FA231A6F1A9F051800434E36 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		FA231A711A9F052200434E36 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		FA231A731A9F052B00434E36 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		FA231A751A9F053100434E36 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FA231A771A9F053700434E36 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +103,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA231A781A9F053700434E36 /* CoreFoundation.framework in Frameworks */,
+				FA231A761A9F053100434E36 /* CoreData.framework in Frameworks */,
+				FA231A741A9F052B00434E36 /* MobileCoreServices.framework in Frameworks */,
+				FA231A721A9F052200434E36 /* libc++.dylib in Frameworks */,
+				FA231A701A9F051800434E36 /* libsqlite3.dylib in Frameworks */,
+				FA231A6E1A9F051000434E36 /* libicucore.dylib in Frameworks */,
 				42628ABF18C05EDA00BC5D81 /* Accounts.framework in Frameworks */,
 				42628ABD18C05ED300BC5D81 /* Social.framework in Frameworks */,
 				42628ABB18C05EC900BC5D81 /* Twitter.framework in Frameworks */,
@@ -134,7 +149,6 @@
 			isa = PBXGroup;
 			children = (
 				423DA34A18BF83C400A3C787 /* BlogTableTutorial */,
-				423DA36918BF83C400A3C787 /* BlogTableTutorialTests */,
 				23968E271A1F6ABE00C0B830 /* BuiltBlogTests */,
 				423DA34318BF83C400A3C787 /* Frameworks */,
 				423DA34218BF83C400A3C787 /* Products */,
@@ -153,6 +167,12 @@
 		423DA34318BF83C400A3C787 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FA231A771A9F053700434E36 /* CoreFoundation.framework */,
+				FA231A751A9F053100434E36 /* CoreData.framework */,
+				FA231A731A9F052B00434E36 /* MobileCoreServices.framework */,
+				FA231A711A9F052200434E36 /* libc++.dylib */,
+				FA231A6F1A9F051800434E36 /* libsqlite3.dylib */,
+				FA231A6D1A9F051000434E36 /* libicucore.dylib */,
 				428A76711917DB31003694AB /* BuiltIO.bundle */,
 				428A76721917DB31003694AB /* BuiltIO.framework */,
 				42628ABE18C05EDA00BC5D81 /* Accounts.framework */,
@@ -187,7 +207,8 @@
 				4271E7E318CF2DAD00764D05 /* BlogDetailViewController.h */,
 				4271E7E418CF2DAD00764D05 /* BlogDetailViewController.m */,
 			);
-			path = BlogTableTutorial;
+			name = BlogTableTutorial;
+			path = BuiltBlog;
 			sourceTree = "<group>";
 		};
 		423DA34B18BF83C400A3C787 /* Supporting Files */ = {
@@ -197,24 +218,6 @@
 				423DA34D18BF83C400A3C787 /* InfoPlist.strings */,
 				423DA35018BF83C400A3C787 /* main.m */,
 				423DA35218BF83C400A3C787 /* BuiltBlog-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		423DA36918BF83C400A3C787 /* BlogTableTutorialTests */ = {
-			isa = PBXGroup;
-			children = (
-				423DA36F18BF83C400A3C787 /* BlogTableTutorialTests.m */,
-				423DA36A18BF83C400A3C787 /* Supporting Files */,
-			);
-			path = BlogTableTutorialTests;
-			sourceTree = "<group>";
-		};
-		423DA36A18BF83C400A3C787 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				423DA36B18BF83C400A3C787 /* BuiltBlogTests-Info.plist */,
-				423DA36C18BF83C400A3C787 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -336,9 +339,9 @@
 				42628AC318C0A91400BC5D81 /* MBProgressHUD.m in Sources */,
 				4271E7E518CF2DAD00764D05 /* BlogDetailViewController.m in Sources */,
 				42628AA918C059DA00BC5D81 /* NewPostViewController.m in Sources */,
+				23075E991B01D17A00DD2DAC /* BlogsTableViewController.m in Sources */,
 				423DA35518BF83C400A3C787 /* AppDelegate.m in Sources */,
 				423DA35118BF83C400A3C787 /* main.m in Sources */,
-				423DA37B18BF866E00A3C787 /* BlogsTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,14 +360,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				423DA34E18BF83C400A3C787 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		423DA36C18BF83C400A3C787 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				423DA36D18BF83C400A3C787 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -495,8 +490,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../**";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BlogTableTutorial/BuiltBlog-Prefix.pch";
-				INFOPLIST_FILE = "BlogTableTutorial/BuiltBlog-Info.plist";
+				GCC_PREFIX_HEADER = "BuiltBlog/BuiltBlog-Prefix.pch";
+				INFOPLIST_FILE = "BuiltBlog/BuiltBlog-Info.plist";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = BuiltBlog;
 				WRAPPER_EXTENSION = app;
@@ -510,8 +505,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../**";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BlogTableTutorial/BuiltBlog-Prefix.pch";
-				INFOPLIST_FILE = "BlogTableTutorial/BuiltBlog-Info.plist";
+				GCC_PREFIX_HEADER = "BuiltBlog/BuiltBlog-Prefix.pch";
+				INFOPLIST_FILE = "BuiltBlog/BuiltBlog-Info.plist";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = BuiltBlog;
 				WRAPPER_EXTENSION = app;
@@ -528,6 +523,7 @@
 				23968E301A1F6ABE00C0B830 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		423DA33C18BF83C400A3C787 /* Build configuration list for PBXProject "BuiltBlog" */ = {
 			isa = XCConfigurationList;
